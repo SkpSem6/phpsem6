@@ -1,0 +1,18 @@
+ItemName{
+	color : blue;
+	Font-family : copperplate Gothic Light;
+	Font-size : 40px;
+	Font : bold;
+}
+ItemPrice{
+	color : cyan;
+	Font-family : Arial;
+	Font-size : 30px;
+	Font : bold;
+	}
+Quantity{
+	color : pink;
+	Font-family : Arial;
+	Font-size : 30px;
+	Font : bold;
+	}

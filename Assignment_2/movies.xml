@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Movie>
+  <category type="Classical">
+    <MovieTitle>KKG</MovieTitle>
+    <ActorName>Subodh</ActorName>
+    <ReleaseYear>2015</ReleaseYear>
+  </category>
+  <category type="Classical">
+    <MovieTitle>Golmaal</MovieTitle>
+    <ActorName>Amol</ActorName>
+    <ReleaseYear>1969</ReleaseYear>
+  </category>
+  <category type="Horror">
+    <MovieTitle>Conjuring</MovieTitle>
+    <ActorName>Joseph</ActorName>
+    <ReleaseYear>2013</ReleaseYear>
+  </category>
+  <category type="Horror">
+    <MovieTitle>Conjuring 2</MovieTitle>
+    <ActorName>Joseph</ActorName>
+    <ReleaseYear>2018</ReleaseYear>
+  </category>
+  <category type="Action">
+    <MovieTitle>KGF</MovieTitle>
+    <ActorName>Yash</ActorName>
+    <ReleaseYear>2018</ReleaseYear>
+  </category>
+  <category type="Action">
+    <MovieTitle>KGF 2</MovieTitle>
+    <ActorName>Yash</ActorName>
+    <ReleaseYear>2022</ReleaseYear>
+  </category>
+</Movie>
