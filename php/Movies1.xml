@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<category>
+  <Classical>
+    <ActorName>Yash</ActorName>
+    <ReleaseYear>2018</ReleaseYear>
+  </Classical>
+  <Horror>
+    <ActorName>Yash</ActorName>
+    <ReleaseYear>2022</ReleaseYear>
+  </Horror>
+  <Action>
+    <ActorName>Vijay</ActorName>
+    <ReleaseYear>2015</ReleaseYear>
+  </Action>
+  <Action>
+    <ActorName>Varun</ActorName>
+    <ReleaseYear>2022</ReleaseYear>
+  </Action>
+  <Horror>
+    <ActorName>XYZ</ActorName>
+    <ReleaseYear>2022</ReleaseYear>
+  </Horror>
+</category>

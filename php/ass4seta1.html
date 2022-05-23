@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type = "text/javascript">
+function print()
+{
+   var x = false;
+   x = new XMLHttpRequest();
+   x.open("GET" , "ass4seta1.php",true);
+   x.send();
+   x.onreadystatechange = function()
+   {
+      if(x.readyState == 4 && x.status == 200)
+      {
+           document.getElementById("i").innerHTML = x.responseText;
+      }
+   }
+}  
+</script>
+</head>
+<body>
+<input type = "button" value = "submit" onclick = "print()">
+<span id = "i"></span>
+</body>
+</html> 
+

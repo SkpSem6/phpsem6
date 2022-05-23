@@ -1,0 +1,21 @@
+ItemName
+{
+   color : red;
+   font-family : copperplate Gothic Light;
+   font-size : 16pt;
+   font : bold;
+}
+ItemPrice
+{
+   color : Black;
+   font-family : Arial;
+   font-size : 12pt;
+   font : bold;
+}
+Quantity
+{
+   color : Black;
+   font-family : Arial;
+   font-size : 12pt;
+   font : bold;
+}

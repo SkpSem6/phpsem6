@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookInfo>
+  <book bookno="1">
+    <bookname>Java</bookname>
+    <authorname>Balguru swami</authorname>
+    <Price>250</Price>
+    <year>2006</year>
+  </book>
+  <book bookno="2">
+    <bookname>C</bookname>
+    <authorname>Denis Ritchie</authorname>
+    <Price>500</Price>
+    <year>1971</year>
+  </book>
+</BookInfo>

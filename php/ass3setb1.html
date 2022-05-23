@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <script type = "text/javascript">
+  function myFunction()
+  {
+     var t3 = document.getElementById("name").value;
+     var t4 = document.getElementById("pass").value;
+     console.log(t3);
+     if(t3 == "Vrushali" && t4 == "Vrushali")
+     { 
+        document.write("Valid User");
+     }
+     else
+     {
+       document.write("InValid User");
+     }
+  }
+ </script>
+
+
+<fieldset>
+ <form method = "post" action = "">
+ Enter Username <input type = "text" name = "t1" id = "name" ><br>
+ Enter Password <input type = "password" name = "t2" id = "pass"><br>
+ <button onclick = "myFunction()">Login</button>
+</form>
+</fieldset>
+</body>
+</html>

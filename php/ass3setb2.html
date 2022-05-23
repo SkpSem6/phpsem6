@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<html>
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#btn1").click(function(){
+         $("img").after("After");
+       });
+
+      $("#btn2").click(function(){
+         $("img").before("Before");
+       });
+    });
+  </script>
+</head>
+<body>
+  <img src = "image1.jpg " width = "80" height ="80" >
+<button id = "btn1">Add Image After Text </button>
+<button id = "btn2">Add Image Before Texts </button>
+</body>
+</html>

@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="Item.css"?>
+<Item><Item1><ItemName>Pen</ItemName><ItemPrice>20</ItemPrice><Quantity>100</Quantity></Item1><Item1><ItemName>Pencil</ItemName><ItemPrice>24</ItemPrice><Quantity>200</Quantity></Item1><Item1><ItemName>Rubber</ItemName><ItemPrice>30</ItemPrice><Quantity>300</Quantity></Item1><Item1><ItemName>Scale</ItemName><ItemPrice>25</ItemPrice><Quantity>100</Quantity></Item1><Item1><ItemName>Book</ItemName><ItemPrice>40</ItemPrice><Quantity>500</Quantity></Item1></Item>

@@ -1,0 +1,51 @@
+<html>
+<body>
+<script type="text/javascript">
+function showHint(str)
+{
+    if(str == "")
+    {
+        document.getElementById("mydiv").innerHTML = "Error: select book";
+        return;
+    }
+   if(window.XMLHttpRequest)
+    {
+        obj = new XMLHttpRequest();
+    }
+    else if(window.ActiveXObject)
+    {
+         obj = new ActiveXObject("Microsoft.XMLHTTP");
+     }
+
+    if(obj == null)
+    {
+       alert("Browser does not support HTTP request");
+       return ;
+     }
+    var url = "ass4setc2.php";
+    url = url +"?q=" + str;
+   obj.open("GET" , url , true);
+    obj.send(null);
+    obj.onreadystatechange = function()
+    {
+          if(obj.readyState == 4 && obj.status == 200)
+          {
+              document.getElementById("mydiv").innerHTML = obj.responseText;
+          }
+    }
+    
+}
+</script>
+</head>
+<body>
+  <p><b>Book Name </b></p>
+  <form>
+  <select name = "bname" onchange = "showHint(this.value)">
+  <option value ="">select book </option>
+  <option value ="Java">Java</option>
+  <option value ="C">C</option>
+  </select>
+  </form>
+  <div id = "mydiv"><b>Book Info</b></div>
+</body>
+</html>
