@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script type = "text/javascript">  
+		function validate()
+		{  
+			var name=document.Membership.name.value;  
+			var password=document.Membership.password.value;        
+			if (name==null || name=="")
+			{  
+				alert("Name column must be filled");  
+				return false;  
+			}
+			else if(password.length<8)
+			{  
+				alert("Password must be at least 8 characters long.");  
+				return false;  
+			}  
+			else
+				alert("SUCCESSFULLY REGISTERED"); 
+		}  
+	</script>  
+<body="container">
+	<center><h3>Membership Form</h3>  
+	<form name="Membership" method="post" action="" onsubmit="return validate()">  
+		Name: <input type="text" name="name"><br><br>
+		Password: <input type="password" name="password"><br><br>  
+		<input type="submit" value="Register">  
+	</form></center> 
+</body>
+</html>

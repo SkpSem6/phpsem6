@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script language="javascript">
+		function show_alert()
+		{
+			alert("Exams are near, have you started preparing for?")
+		}
+		function disp_confirm()
+		{
+			var r=confirm("Press a button")
+			if(r==true)
+			{
+				document.write("You pressed OK!")
+			}
+			else
+			{
+				document.write("You pressed Cancel!")			
+			}
+		}
+		function disp_prompt()
+		{
+			var c=prompt("Please enter 1st rank IT Company","Infosys")
+			if(c!=null && c!="")
+			{
+				document.write("Hello, "+c+" is the best IT company")
+			}
+		}
+
+		</script>
+	</head>
+	<body>
+		<input type="button" onclick="show_alert()" value="Show alert box">
+		<input type="button" onclick="disp_confirm()" value="Display a confirm box">
+		<input type="button" onclick="disp_prompt()" value="Display a prompt box">
+	</body>
+</html>

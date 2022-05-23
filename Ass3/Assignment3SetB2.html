@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+         $("#button1").click(function(){
+	 $("img").before("<b>Hot </b>");
+	 });
+
+	 $("#button2").click(function(){
+	 $("img").after("<b>Coffee</b>");
+	 });
+
+	 });
+
+</script>
+</head>
+<body>
+  
+	 <img align="center" src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg" width="300" height="300"> 
+ 
+
+<br><button id = "button1">Add content Before</button>
+<button id = "button2">Add content After</button>
+</body>
+</html>
